@@ -1,17 +1,18 @@
 <?php
+
 namespace FForattini\Btrieve\Rule;
 
 abstract class Rule
 {
-	protected $length;
+    protected $length;
 
-	public function setLength($n)
-	{
-		$this->length = $n;
-	}
+    public function setLength($n)
+    {
+        $this->length = $n;
+    }
 
-	public function getLength()
-	{
-		return $this->length;
-	}
+    public function getLength()
+    {
+        return $this->length;
+    }
 }
